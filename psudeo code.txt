@@ -1,0 +1,20 @@
+psudeo code
+
+variables
+
+questions
+awnsers
+buttons
+button container
+success alerts
+score
+time
+intial scoreboard
+
+functions
+start quiz
+prompt questions
+advance to next question
+keep track of time
+post final score
+
