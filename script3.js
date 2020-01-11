@@ -3,8 +3,8 @@ const nextButton = document.getElementById('next-btn')
 const questionContainerElement = document.getElementById('question-container')
 const questionElement = document.getElementById('question')
 const answerButtonsElement = document.getElementById('answer-buttons')
-let time = 75
-// var timerElement = document.getElementsById('timer')
+let time = document.getElementById('timer')
+
 
 let shuffledQuestions, currentQuestionIndex
 
@@ -14,8 +14,7 @@ nextButton.addEventListener('click', () => {
   setNextQuestion()
 
   setTimeout(decreaseTimer, 1000);
-  function decreaseTimer() {
-    console.log(decreaseTimer.value)
+  function decreaseTimer() {time.value--
  }
   
 })
@@ -84,6 +83,7 @@ function clearStatusClass(element) {
   element.classList.remove('wrong')
 }
 
+function highschore ()
 
 const questions = [
   {
