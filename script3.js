@@ -126,7 +126,7 @@ const questions = [
       { text: '6', correct: false },
       { text: '8', correct: true },
       { text: '100', correct: false },
-      { text: '2', correct: false }
+      { text: '2000000', correct: false }
     ]
   }
 ]
