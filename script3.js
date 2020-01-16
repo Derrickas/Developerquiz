@@ -83,8 +83,6 @@ function clearStatusClass(element) {
   element.classList.remove('wrong')
 }
 
-function highschore ()
-
 const questions = [
   {
     question: 'what is a string?',
@@ -96,21 +94,30 @@ const questions = [
     ]
   },
   {
-    question: 'Who is the best YouTuber?',
+    question: 'What is jquery?',
     answers: [
-      { text: 'Web Dev Simplified', correct: true },
-      { text: 'Traversy Media', correct: true },
-      { text: 'Dev Ed', correct: true },
-      { text: 'Fun Fun Function', correct: true }
+      { text: 'legal jargen', correct: false },
+      { text: 'Library', correct: true },
+      { text: 'coding school', correct: false },
+      { text: 'type of value input', correct: false }
     ]
   },
   {
     question: 'Is web development fun?',
     answers: [
       { text: 'Kinda', correct: false },
-      { text: 'YES!!!', correct: true },
-      { text: 'Um no', correct: false },
-      { text: 'IDK', correct: false }
+      { text: 'YES', correct: true },
+      { text: 'no way..', correct: false },
+      { text: 'learning sux', correct: false }
+    ]
+  },
+  {
+    question: 'what is the best pc?',
+    answers: [
+      { text: 'linux', correct: false },
+      { text: 'windows', correct: false },
+      { text: 'apple', correct: false },
+      { text: 'it dosent really matter', correct: true }
     ]
   },
   {
@@ -118,17 +125,8 @@ const questions = [
     answers: [
       { text: '6', correct: false },
       { text: '8', correct: true },
-      { text: '8', correct: true },
-      { text: '8', correct: true }
-    ]
-  },
-  {
-    question: 'What is 4 * 2?',
-    answers: [
-      { text: '6', correct: false },
-      { text: '8', correct: true },
-      { text: '8', correct: true },
-      { text: '8', correct: true }
+      { text: '100', correct: false },
+      { text: '2', correct: false }
     ]
   }
 ]
